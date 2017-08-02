@@ -1,0 +1,48 @@
+/* CSS declarations go here */
+*{
+    box-sizing: border-box;
+    font-family: 'futura';
+}
+
+header{
+    text-align: center;
+}
+
+.item{
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+    .example-enter, .example-appear {
+        opacity: 0.01;
+    }
+
+    .example-enter.example-enter-active, .example-appear.example-appear-active {
+        opacity: 1;
+        transition: opacity 500ms ease-in;
+    }
+
+    .example-leave {
+        opacity: 1;
+    }
+
+    .example-leave.example-leave-active {
+        opacity: 0.01;
+        transition: opacity 300ms ease-in;
+    }
+
+.vote-one, .vote-two{
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+    .vote-one{
+        margin-right: 20px;
+    }
+
+    .vote-two{
+        margin-left: 20px;
+    }
